@@ -1,0 +1,112 @@
+@media screen and (max-width: 947px) {
+  .blur {
+    width: 68vw;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .blue {
+    width: 70vw;
+  }
+  .texts h1 {
+    font-size: 8rem;
+  }
+  main .header nav a {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .blur {
+    width: 70vw;
+  }
+  .texts h1 {
+    font-size: 7.5rem;
+  }
+  .texts p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .blur {
+    width: 73vw;
+  }
+  .texts h1 {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .blur {
+    width: 75vw;
+  }
+  .texts h1 {
+    font-size: 6.6rem;
+  }
+  .texts p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .texts h1 {
+    text-align: center;
+    font-size: 6.2rem;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .blur {
+    width: 78vw;
+  }
+  .texts h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  main .header nav a {
+    font-size: 1.6rem;
+    margin: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .blur {
+    width: 83vw;
+  }
+  .texts h1 {
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .blur {
+    width: 85vw;
+  }
+  .texts h1 {
+    font-size: 5rem;
+  }
+  .texts p {
+    font-size: 1.2rem;
+  }
+  main .header nav a {
+    font-size: 1.6rem;
+    margin: 0rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 324px) {
+    .blur {
+      width: 85vw;
+      height: 60vh;
+    }
+    .texts h1 {
+      font-size: 4.8rem;
+    }
+    main .header nav a {
+      font-size: 1.5rem;
+      margin: 0rem 1rem;
+    }
+  }

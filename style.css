@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(assets/bubbles.png); */
+  /* background-repeat: none; */
+  /* background-size: 90%; */
+  position: relative;
+}
+
+main .header {
+  width: 100vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main .header nav a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0rem 3rem;
+  transition: 0.3s;
+}
+
+main .header nav a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+
+.mainDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.blur {
+  z-index: 1;
+  position: absolute;
+  width: 60vw;
+  height: 65vh;
+  /* background-color: rgba(255, 255, 255, 0.6);
+  filter: blur(4px);
+  -webkit-filter: blur(4px); */
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  top: 5rem;
+  border-radius: 2.5rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texts {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+.texts h1 {
+  font-size: 9rem;
+}
+
+.texts p {
+  font-size: 2rem;
+}
